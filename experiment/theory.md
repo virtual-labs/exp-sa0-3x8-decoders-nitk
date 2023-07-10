@@ -101,7 +101,7 @@ The truth table for this case is given in figure 2.12 .
 
 <center>Figure 2.12: The Truth Table Comparing Output with fault and without fault. Here xf represent faulty value of x input line to first decoder.</center></br></br>
 
-####</br> Case (iii) :
+#### Case (iii) :
 
 Finally consider SA0 fault at the position shown in figure 2.13 .
 
