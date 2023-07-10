@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "To detect a stuck at fault, error signal must be propagated (must affect the value).This is called",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Fault termination",
+        "b": "Fault propagation",
+        "c": "Fault nullification",
+        "d": "Fault improvisation"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "ATPG is a tool that can ascertain presence and absence of faults at some locations in the circuits.ATPG stand for",
+      "answers": {
+        "a": "Automatic Test Pattern Group",
+        "b": "Automatic Technology Pattern Generation",
+        "c": "Automatic Test Pattern Generation",
+        "d": "Automatic Technology Pattern Group"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In order to detect a fault at 'h', we need to provide fault-free logic value at 'h' location.This is called",
+      "answers": {
+        "a": "Fault activation",
+        "b": "Fault termination",
+        "c": "Fault removal",
+        "d": "Fault improvisation"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "It is always possible to detect a Stuck-at-0 fault using some input values.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "SA0 present at a location means the signal passing through that line",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Is ambiguous",
+        "b": "Is always 0",
+        "c": "Is always 1",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
