@@ -1,0 +1,12 @@
+
+/home/runner/work/exp-sa0-3x8-decoders-nitk/exp-sa0-3x8-decoders-nitk/experiment/simulation/js/script.js
+  7:10  warning  'modalOpen' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-sa0-3x8-decoders-nitk/exp-sa0-3x8-decoders-nitk/experiment/simulation/js/sim.js
+  78:10  warning  'add' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-sa0-3x8-decoders-nitk/exp-sa0-3x8-decoders-nitk/experiment/simulation/js/test.js
+  1:10  warning  'validate' is defined but never used  no-unused-vars
+
+✖ 3 problems (0 errors, 3 warnings)
+

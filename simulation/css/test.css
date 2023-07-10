@@ -1,0 +1,72 @@
+body {
+  background-color: #fafafa;
+}
+div.content {
+  max-width: 640px;
+  margin: 0 auto 1em;
+  background-color: #fafafa;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+div.quiz {
+  border-top: 1px solid #ccc;
+}
+div.quiz ul p {
+  margin-bottom: 0;
+  padding: 0.2em;
+  font-weight: 400;
+  color: #000;
+}
+div.quiz ul li, #output {
+  list-style: none;
+  font-size: 0.9em;
+  font-weight: 300;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+div.quiz li.wrong {
+  color: #e00;
+}
+div.quiz li.correct {
+  font-weight: normal;
+  color: #180;
+}
+label {
+  cursor: pointer;
+  line-height: 1.5em;
+}
+input[type="radio"] {
+  margin: auto 0.5em;
+}
+#output {
+  display: block;
+  width: max-content;
+  font-weight: normal;
+  margin: 0.5em auto;
+  position: relative;
+  left: -10%;
+}
+button {
+  display: block;
+  padding: min(1vw, 1vh);
+  font-size: 1rem;
+  font-family: serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: -10%;
+}
+button.primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+button.primary:active {
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+button.primary:hover, button.primary:focus {
+  box-shadow: 0 0 0 0.1rem #38f8;
+  outline: none;
+}
