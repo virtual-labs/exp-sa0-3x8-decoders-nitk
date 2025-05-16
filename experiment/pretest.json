@@ -10,7 +10,7 @@
         "d": "4"
       },
       "explanations": {
-        "a": "",
+        "a": "Stuck-at faults are of two types: stuck-at-1 (SA1) and stuck-at-0 (SA0), representing when a signal is fixed at either logic high or low.",
         "b": "",
         "c": "",
         "d": ""
@@ -30,7 +30,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "The SA0 fault detection model is used to predict the scenario when a fault is found, identify errors due to the SA0 fault at different locations, and help in fault diagnosis, thus covering all aspects mentioned."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -45,7 +45,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "IC 74HC238 is a 3-to-8 line decoder, commonly used for implementing a 3x8 line decoder, providing active low outputs for all possible combinations.",
         "c": "",
         "d": ""
       },
@@ -61,7 +61,7 @@
         "d": "xnor of two inputs"
       },
       "explanations": {
-        "a": "",
+        "a": "In a 4x16 line decoder implemented using two 3x8 decoders, the enable signal is typically used as one of the inputs to select which decoder is active.",
         "b": "",
         "c": "",
         "d": ""
@@ -76,7 +76,7 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
+        "a": "By considering the Stuck-at-0 fault (SA0), all cases where a line is permanently stuck at logic 0 can be identified, helping in fault detection at different locations in the circuit.",
         "b": ""
       },
       "correctAnswer": "a",
