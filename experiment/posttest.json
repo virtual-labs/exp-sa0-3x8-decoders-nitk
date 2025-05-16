@@ -11,7 +11,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "Fault propagation refers to the process where an error caused by a stuck-at fault must propagate through the circuit to affect the output and be detected.",
         "c": "",
         "d": ""
       },
@@ -29,7 +29,7 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": " ATPG stands for Automatic Test Pattern Generation, a tool used to generate test patterns that help detect faults in circuits.",
         "d": ""
       },
       "correctAnswer": "c",
@@ -44,7 +44,7 @@
         "d": "Fault improvisation"
       },
       "explanations": {
-        "a": "",
+        "a": "Fault activation refers to providing a fault-free logic value at a location to activate and detect the fault at that specific point in the circuit.",
         "b": "",
         "c": "",
         "d": ""
@@ -59,7 +59,7 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
+        "a": "It is always possible to detect a Stuck-at-0 fault using some input values, as the fault will affect the output when the signal is supposed to be a logic 1 but is stuck at 0.",
         "b": ""
       },
       "correctAnswer": "a",
@@ -75,7 +75,7 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "A Stuck-at-0 (SA0) fault means the signal passing through that line is permanently stuck at logic 0, regardless of the intended input.",
         "c": "",
         "d": ""
       },
