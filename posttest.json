@@ -1,0 +1,86 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "To detect a stuck at fault, error signal must be propagated (must affect the value).This is called",
+      "answers": {
+        "a": "Fault termination",
+        "b": "Fault propagation",
+        "c": "Fault nullification",
+        "d": "Fault improvisation"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Fault propagation refers to the process where an error caused by a stuck-at fault must propagate through the circuit to affect the output and be detected.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "ATPG is a tool that can ascertain presence and absence of faults at some locations in the circuits.ATPG stand for",
+      "answers": {
+        "a": "Automatic Test Pattern Group",
+        "b": "Automatic Technology Pattern Generation",
+        "c": "Automatic Test Pattern Generation",
+        "d": "Automatic Technology Pattern Group"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": " ATPG stands for Automatic Test Pattern Generation, a tool used to generate test patterns that help detect faults in circuits.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In order to detect a fault at 'h', we need to provide fault-free logic value at 'h' location.This is called",
+      "answers": {
+        "a": "Fault activation",
+        "b": "Fault termination",
+        "c": "Fault removal",
+        "d": "Fault improvisation"
+      },
+      "explanations": {
+        "a": "Fault activation refers to providing a fault-free logic value at a location to activate and detect the fault at that specific point in the circuit.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "It is always possible to detect a Stuck-at-0 fault using some input values.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "It is always possible to detect a Stuck-at-0 fault using some input values, as the fault will affect the output when the signal is supposed to be a logic 1 but is stuck at 0.",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "SA0 present at a location means the signal passing through that line",
+      "answers": {
+        "a": "Is ambiguous",
+        "b": "Is always 0",
+        "c": "Is always 1",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "A Stuck-at-0 (SA0) fault means the signal passing through that line is permanently stuck at logic 0, regardless of the intended input.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}
