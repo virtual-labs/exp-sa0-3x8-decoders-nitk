@@ -1,19 +1,15 @@
-### Lab Coordinator :
+### Lab Developers :
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
 |  1   | Dr. Biswajit R Bhowmik | NITK |
 |  2   | Prof. K V Gangadharan | NITK |
 
-### Lab Developers :
+### Contributors :
 
 | SNo. | Name | Institute |
 | :--: | :-- | :-------: |
-|  1   | Anusha B Salian | NITK |
-|  2   | Prajna K | NITK |
+|  1   | Shwetha | NITK |
+|  2   | Vismaya M Kumar | NITK |
 |  3   | Akshaya | NITK |
-
-<!-- ### Content Developers :
-
-| SNo. | Name | Institute |
-| :--: | :-- | :-------: | -->
+|  3   | Anusha B Salian | NITK |
