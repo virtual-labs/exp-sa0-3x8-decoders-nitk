@@ -4,10 +4,10 @@
 <p style="text-align:justify;">A Stuck-at fault (SAF) is a logic-level fault that mimics a manufacturing defect on a digital device, circuits, etc. A Stuck-at-Fault is of two types: stuck-at-0 (SA0) and stuck-at-1 (SA1) fault. Stuck at faults occur when a line is permanently stuck to Vcc or ground giving a faulty output. This line may be an input or output to any gate. Also this fault can be single or multiple stuck at faults, Although in this experiment we will only talk about single stuck at faults.</p>
 
 <center><img src="./images/image_1.png"/></center>
-<center>Figure 2.1: Example of stuck-at-0 fault.</center></br>
+<center>Figure 2.1: Example of stuck-at-0 fault.</center></br></br>
 
 <center><img src="./images/image_2.png"/></center>
-<center>Figure 2.2: Example of stuck-at-1 fault.</center></br>
+<center>Figure 2.2: Example of stuck-at-1 fault.</center></br></br>
 
 <p style="text-align:justify;">A fault model is an engineering model of something that could go wrong in the construction or operation of a piece of equipment. From the model, the designer or user can then predict the consequences of this particular fault. To detect such fault, a suitable fault model is used. The user deliberately make Vcc or grounded positions and checks output. The user checks all types of faults that may occur in the circuit.</p>
 
