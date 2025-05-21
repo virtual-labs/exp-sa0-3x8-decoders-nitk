@@ -2,37 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Stuck at fault are of how many types",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2",
+        "b": "3",
+        "c": "1",
+        "d": "4"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Stuck-at faults are of two types: stuck-at-1 (SA1) and stuck-at-0 (SA0), representing when a signal is fixed at either logic high or low.",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "SA0 fault detection model is used to",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Predict the scenario in case a fault is found in circuit",
+        "b": "Identify errors that can occur due to SA0 at different locations.",
+        "c": "Predict reasons of fault.",
+        "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "The SA0 fault detection model is used to predict the scenario when a fault is found, identify errors due to the SA0 fault at different locations, and help in fault diagnosis, thus covering all aspects mentioned."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "IC chip used for implementation of 3x8 line-decoder",
+      "answers": {
+        "a": "IC 74HC200",
+        "b": "IC 74HC238",
+        "c": "IC 74HR238",
+        "d": "IC 74HA228"
+      },
+      "explanations": {
+        "a": "",
+        "b": "IC 74HC238 is a 3-to-8 line decoder, commonly used for implementing a 3x8 line decoder, providing active low outputs for all possible combinations.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The 4x16 line-decoder implemented using two 3x8 line-decoders has enable as",
+      "answers": {
+        "a": "one of the inputs",
+        "b": "one of the outputs",
+        "c": "xor of two inputs",
+        "d": "xnor of two inputs"
+      },
+      "explanations": {
+        "a": "In a 4x16 line decoder implemented using two 3x8 decoders, the enable signal is typically used as one of the inputs to select which decoder is active.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "By considering Stuck-at-0 fault (line always passes signal 0) at different locations, all the SA0 fault cases can be identified",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "By considering the Stuck-at-0 fault (SA0), all cases where a line is permanently stuck at logic 0 can be identified, helping in fault detection at different locations in the circuit.",
+        "b": ""
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
